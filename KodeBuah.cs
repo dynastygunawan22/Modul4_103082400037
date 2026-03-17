@@ -23,6 +23,6 @@ class KodeBuah
 
     public string getKodeBuah(string namaBuah)
     {
-        return kodeBuah.ContainsKey(namaBuah) ? kodeBuah[namaBuah] : "Kode tidak ditemukan";
+        return kodeBuah.ContainsKey(namaBuah) ? kodeBuah[namaBuah] : "Kodenya tidak ditemukan";
     }
 }
